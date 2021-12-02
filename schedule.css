@@ -1,0 +1,17 @@
+table, td, th{
+	border: 1px solid black;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 10px;
+	width: 100%;
+}
+img{
+	width: 25px;
+	height: 25px;
+}
+table td{
+	border: solid;
+	border-width: 1px 0;
+}
