@@ -1,8 +1,9 @@
 <!-- DEVELOPER: Morgan Hah, IS117-003, Fall 2021 -->
 <html>
 <head>
-        <title>Contact Form</title>
-        <link rel ="stylesheet" href="main.css">
+        <title>News</title>
+        <link rel ="stylesheet" href="../styles/main.css">
+	<link rel="stylesheet" href="../styles/news.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
@@ -11,7 +12,7 @@
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body style="background-color:powderblue;">
-        <h1>Contact Form</h1>
+        <h1>News</h1>
         <div class="bar">
                 <a href="home.html">Home</a>
                 <div class="subnav">
@@ -30,31 +31,48 @@
                         </div>
                 </div>
         </div>
-	<br>
-	<br>
-	<form action ="">
-		<div class="form-group">
-			<label for="firstname">First Name:</label>
-			<input type="text" class="form-control" id="firstname"
-				placeholder="First Name" name="firstname">
-		</div>
-		<div class="form-group">
-                        <label for="lastname">Last Name:</label>
-                        <input type="text" class="form-control" id="lastname"
-                                placeholder="Last Name" name="lastname">
-                </div>
-		<div class="form-group">
-                        <label for="email">Email:</label>
-                        <input type="email" class="form-control" id="email"
-                                placeholder="Enter Email" name="email">
-                </div>
-		<div class="form-group">
-                        <label for="subject">Subject:</label>
-                        <input type="text" class="form-control" id="subject"
-                                placeholder="Enter Subject" name="subject">
-                </div>
-		<button type="submit" class="btn btn-primary">Submit</button>
-	</form>
+
+<div class="container">
+        <div class="left">
+                <h2>Trending</h2>
+		<br>
+		<br>
+		<a href="#"><img src="images/csgonews.jpg" alt="csgo article image"></a>
+		<p>Lorem ipsum dolor sit amet.</p>
+		<br>
+		<a href="#"><img src="images/lolnews.jpeg" alt="league article image"></a>
+		<p>Lorem ipsum dolor sit amet.</p>
+		<br>
+		<a href="#"><img src="images/hsnews.png" alt="hearthstone article image"></a>
+		<p>Lorem ipsum dolor sit amet</p>
+        </div>
+        <div class="center">
+                <h2>Patch Notes</h2>
+		<br>
+		<br>
+		<a href="https://playvalorant.com/en-gb/news/game-updates/valorant-patch-notes-3-10/"><img src="images/valpatch.jpg"></a>
+		<p>Valorant Patch Notes 3.10</p>
+		<br>
+		<a href="https://playhearthstone.com/en-us/news/23751629"><img src="images/hspatch.png"></a>
+		<p>Hearthstone Patch Notes 22.0</p>
+		<br>
+		<a href="https://blog.counter-strike.net/index.php/2021/11/36348/"><img src="images/csgopatch.jpg"></a>
+		<p>Counter Strike: Global Offensive Patch Notes</p>
+	</div>
+        <div class="right">
+                <h2>New</h2>
+		<br>
+		<br>
+		<a href="https://dotesports.com/overwatch/news/super-on-the-state-of-overwatch-why-have-they-abandoned-it"><img src="images/ownew.jpg"></a>
+		<p>Lorem ipsum dolor sit amet</p>
+		<br>
+		<a href="https://www.theverge.com/2021/12/2/22814517/ea-battlefield-vince-zampella-apex-legends-respawn-boss-ceo-shakeup"><img src="images/apexnew.jpg"></a>		
+		<p>Lorem ipsum dolor sit amet</p>
+		<br>
+		<a href="https://dotesports.com/dota-2/news/topson-steps-away-from-competitive-dota-2-to-focus-on-his-family"><img src="images/dotanew.jpg"></a>		
+		<p>Lorem ipsum dolor sit amet</p>
+        </div>
+</div>
 </body>
 <footer class="footer page-footer font-small">
         <div class="content">
