@@ -8,7 +8,7 @@ body{
 .left, .right, .center{
       float: left;
       width: 33%;
-      color: white;
+      color: black;
       padding: 10px;
       height: 500px;
       text-align: center;
@@ -43,4 +43,7 @@ table, th, td{
 table td{
 	border: solid;
 	border-width: 1px 0;
+}
+li{
+	font-size:30px;
 }
